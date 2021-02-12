@@ -17,7 +17,6 @@ class Persion extends EventEmitter {
 }
 
 let person = new Persion("karunakar");
-
 person.on('name', () => {
     console.log(`Hai....${person.name}`)
 })
